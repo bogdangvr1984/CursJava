@@ -18,7 +18,7 @@ public class DoWhileExample {
 		
 		while(j<array.length) {
 			System.out.println(array[j]);
-			j++;
+			j++; 
 		}
 		
 	}
