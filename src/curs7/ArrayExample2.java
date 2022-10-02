@@ -46,14 +46,16 @@ public class ArrayExample2 {
 	}
 	
 	
-	public boolean checkDuplicateNumber(int[] array, int nr) {
-		
-		for(int number: array) {
-
-			if(number == nr) {
-					return true;}
-		}
-	}
+ public boolean checkDuplicateNumber(int[] array, int nr) {
+		 
+		 for(int number: array) {
+			 
+			 if(number == nr) {
+				 return true;
+			 }
+		 }
+		 return false;
+	 }
 	
 	public void printArray(int[] array) {
 		
