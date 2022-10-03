@@ -9,13 +9,11 @@ public class RefactorToIfElse {
 		
 		if (vanzari>2500) {
 			comision = vanzari*5/100;
-		System.out.println("Comisionul tau este :" + comision);
 		}
 		else {
-			comision = 0;
-		System.out.println("Comisionul tau este :" + comision);
+			comision = 0;	
 		}
-
+		System.out.println("Comisionul tau este :" + comision);
 	}
 
 }

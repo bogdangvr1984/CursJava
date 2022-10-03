@@ -12,9 +12,9 @@ public class NumeDuplicate {
 				System.out.println("Nume duplicat " + myStringArray[j]);
 			}
 
-	}
+       	}
 
-}
+     }
 
-	}
+   }
 }

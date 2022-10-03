@@ -16,18 +16,18 @@ public class CalculPunctaj {
 		
 		
 		if(punctaj>=90) {
-			calificativ="FB";
+			calificativ = "FB";
 			//System.out.println("Ai primit : FoarteBine");
 		} 
 		else if(punctaj>=80) {
-			calificativ="B";
+			calificativ = "B";
 			//System.out.println("Ai primit : Bine");
 		} 
 		else {
-			calificativ="S";
+			calificativ = "S";
 			//System.out.println("Ai primit : Suficient");
 		}
-		rezultat = calificativ = "FB" != null ? "Ai primit : FoarteBine" : calificativ = "B" ?"Ai primit : Bine":"Ai primit : Suficient";
+		rezultat = calificativ = "FB" != null ? "Ai primit : FoarteBine" : calificativ == "B" ?"Ai primit : Bine":"Ai primit : Suficient";
 		System.out.println(rezultat);
 
 	}
