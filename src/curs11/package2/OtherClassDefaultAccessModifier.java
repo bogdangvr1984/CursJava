@@ -4,7 +4,7 @@ public class OtherClassDefaultAccessModifier {
 	
 	public static void main(String[] args) {
 		
-		DefaultAccessModifier obj = new DefaultAccessModifier();
+		//DefaultAccessModifier obj = new DefaultAccessModifier();
 	}
 
 }
