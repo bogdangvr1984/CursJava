@@ -7,9 +7,9 @@ import java.util.List;
 public class ArrayListExample2 {
 
 	public static void main(String[] args) {
-		
+
 		List<String> list = new ArrayList<>(Arrays.asList("zero", "unu", "doi", "trei", "patru"));
-		
+
 		System.out.println(list.size());
 		list.add("cinci");
 		
@@ -17,7 +17,7 @@ public class ArrayListExample2 {
 			System.out.println(nr);
 		}
 		
-		System.out.println("-----------------");
+		System.out.println("---------------------");
 		
 		//remove range
 		list.subList(1, 4).clear();
@@ -25,15 +25,15 @@ public class ArrayListExample2 {
 		System.out.println(list);
 		
 		//contains
-		
 		String element = "opt";
 		if(list.contains(element)) {
-			System.out.println(element = " se afla in lista!");
+			System.out.println(element +  " se afla in lista!");
 		}else {
-			System.out.println(element = " Nu se afla in lista!");
+			System.out.println(element +  " NU se afla in lista!");
+
 		}
 		
-		System.out.println("-----------------");
+		System.out.println("---------------------------------");
 		
 		//update
 		System.out.println("Before update :" + list);

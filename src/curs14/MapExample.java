@@ -35,7 +35,7 @@ public class MapExample {
 		map.remove("M");
 		
 		boolean checkKey = map.containsKey("M");
-	    System.out.println("Cntains key :" + checkKey);
+	    System.out.println("Contains key :" + checkKey);
 	    
 	    boolean checkValue = map.containsValue("Developer");
 	    System.out.println("Contains value :" + checkValue);
