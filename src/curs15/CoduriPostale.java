@@ -19,7 +19,7 @@ public class CoduriPostale {
 		
 	}
 	
-	public String gasesteOras(int codPostal) {
+	public String gasesteOras(int codPostal) throws CodPostalException {
 		
 		if(cp.containsKey(codPostal)) {
 			
@@ -33,7 +33,6 @@ public class CoduriPostale {
 			throw new CodPostalException("Codul postal nu exista!");
 		}
 		
-		return null;
 	}
 
 }
